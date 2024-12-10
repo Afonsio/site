@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stray Kids - StarPop Central</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Albuns.css"> <!-- Link para o CSS geral -->
+</head>
+<body class="pagina-straykids">
+    <!-- Cabeçalho com o título do grupo e logo -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>StarPop</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="inicio.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="membros.html" class="nav-link">Membros</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Álbuns</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="albun-bts.html">BTS</a>
+                            <a class="dropdown-item" href="albun-stray.html">STRAY KIDS</a>
+                            <a class="dropdown-item" href="albun-twice.html">TWICE</a>
+                            <a class="dropdown-item" href="albun-blackpink.html">BLACKPINK</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="acoes.html" class="nav-link">Ações Sociais</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="header-straykids">
+        <h1>
+            
+            <img src="imagens/stray-kids-logo.jpeg" alt="Stray Kids Logo" class="logo-straykids"> <!-- Coloque o caminho correto da logo do Stray Kids -->
+        </h1>
+        <img src="imagens/meninos-do-stray-kids.jpeg" alt="Stray Kids Group Image" class="img-straykids"> <!-- Coloque a imagem do grupo aqui -->
+    </div>
+
+    <!-- Seção de conteúdo (História do grupo) -->
+    <div class="content">
+        <h2>História do grupo</h2>
+        <p>Stray Kids foi formado por meio de um reality show de mesmo nome, criado pela JYP Entertainment. O grupo rapidamente ganhou notoriedade por seu som autêntico e pelas habilidades de composição e produção dos próprios integrantes, principalmente o trio 3RACHA (Bang Chan, Changbin e Han), que produzem muitas das músicas do grupo. Eles são conhecidos por mesclar EDM, trap e hip-hop em suas músicas e explorar temas como identidade, juventude e liberdade. O fandom oficial do grupo é chamado de "Stay".</p>
+        
+        <p>Desde sua estreia em 2018, Stray Kids tem se destacado não apenas na Coreia do Sul, mas em todo o mundo, acumulando um número significativo de seguidores internacionais. O grupo é conhecido por sua energia vibrante e presença de palco dinâmica, o que os torna uma força irresistível em shows ao vivo.</p>
+
+        <p>Stray Kids é composto por oito membros: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin e I.N. Cada membro traz uma personalidade e conjunto de habilidades únicas, contribuindo para o som diversificado e cativante do grupo. Bang Chan, como líder, desempenha um papel crucial na produção e composição das músicas, muitas vezes colaborando com Changbin e Han no trio 3RACHA.</p>
+
+        <p>O conceito musical do Stray Kids é frequentemente centrado em questões de autoidentidade e superação de desafios. Músicas como "District 9", "My Pace", e "Hellevator" abordam temas de resistência, perseverança e a busca por um sentido de pertença. Essas mensagens ressoam profundamente com seus fãs, conhecidos como Stays, que veem o grupo como uma fonte de inspiração e força.</p>
+
+        <p>A capacidade do Stray Kids de inovar musicalmente é evidente em sua discografia variada. Eles frequentemente experimentam diferentes gêneros e estilos, incorporando elementos de rock, pop e música eletrônica. Este espírito inovador tem ajudado o grupo a se manter relevante e a atrair novos ouvintes.</p>
+
+        <p>Em 2020, Stray Kids lançou seu primeiro álbum de estúdio, "GO生" ("GO LIVE"), que inclui sucessos como "God's Menu" e "Back Door". O álbum foi um sucesso comercial, solidificando a posição do grupo como líderes da nova geração de artistas de K-pop. "God's Menu" em particular se tornou um hino, com seu ritmo contagiante e coreografia intensa.</p>
+
+        <p>Além de suas realizações musicais, Stray Kids também é conhecido por sua presença significativa nas redes sociais e seu engajamento com os fãs. Eles frequentemente compartilham atualizações e interagem com os Stays através de várias plataformas, criando uma comunidade global unida.</p>
+
+        <p>Os membros do Stray Kids também exploraram projetos solo e colaborações com outros artistas, demonstrando sua versatilidade e desejo de crescer artisticamente. Cada membro teve a oportunidade de brilhar individualmente, ao mesmo tempo em que reforça a coesão do grupo como um todo.</p>
+
+        <p>Com seu talento inegável e dedicação, Stray Kids continua a expandir seus horizontes e alcançar novas alturas. Eles representam uma nova era do K-pop, onde a autenticidade e a inovação são celebradas. À medida que continuam a crescer e evoluir, Stray Kids promete manter sua posição como uma das forças mais empolgantes e influentes da música pop global.</p>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    </body>
+    <script>
+        function menuShow() {
+            var menuMobile = document.querySelector('.mobile-menu');
+            if (menuMobile.classList.contains('open')) {
+                menuMobile.classList.remove('open');
+            } else {
+                menuMobile.classList.add('open');
+            }
+        }
+        
+    </script>
+</body>
+</html>

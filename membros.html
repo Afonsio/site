@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="Albuns.css">
+    <title>Página de Membros</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .group {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .group h2 {
+            margin-bottom: 20px;
+        }
+        .member-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background-color: #333;
+            border: 1px solid #444;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Starpop</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="inicio.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="membros.html" class="nav-link">Membros</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Álbuns</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="albun-bts.html">BTS</a>
+                            <a class="dropdown-item" href="albun-stray.html">STRAY KIDS</a>
+                            <a class="dropdown-item" href="albun-twice.html">TWICE</a>
+                            <a class="dropdown-item" href="albun-blackpink.html">BLACKPINK</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="acoes.html" class="nav-link">Ações Sociais</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="inicio.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="membros.html" class="nav-link">Membros</a></li>
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Álbuns</a>
+                <div class="container-botoes">
+                    <a href="albun-bts.html" class="botao">BTS</a>
+                    <a href="albun-stray.html" class="botao">STRAY KIDS</a>
+                    <a href="albun-twice.html" class="botao">TWICE</a>
+                    <a href="albun-blackpink.html" class="botao">BLACKPINK</a>
+                </div>
+                <li class="nav-item"><a href="acoes.html" class="nav-link">Ações Sociais</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="group">
+        <h2>Twice</h2>
+        <div class="member-cards">
+            <div class="card">
+                <img src="imagens-membros/NAYEON.jpg" alt="Nayeon">
+                <h3>Nayeon</h3>
+                <p>História: Nayeon é a integrante mais velha do Twice. Ela é conhecida por sua personalidade energética e sorriso radiante.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Jeongyeon.jpg" alt="Jeongyeon">
+                <h3>Jeongyeon</h3>
+                <p>História: Jeongyeon é reconhecida por sua voz poderosa e personalidade carismática. Ela começou como trainee na JYP Entertainment em 2010.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/MOMO.jpg" alt="Momo">
+                <h3>Momo</h3>
+                <p>História: Momo é a principal dançarina do Twice. Nascida no Japão, ela impressiona fãs com suas habilidades de dança excepcionais.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Sana.jfif" alt="Sana">
+                <h3>Sana</h3>
+                <p>História: Sana é conhecida por seu charme e habilidades de comunicação. Ela também é do Japão e fala japonês, coreano e inglês.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Jihyo.jpg" alt="Jihyo">
+                <h3>Jihyo</h3>
+                <p>História: Jihyo é a líder do Twice, conhecida por sua voz incrível e habilidades de liderança. Ela treinou por 10 anos antes de debutar.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/MINA💜.jpg" alt="Mina">
+                <h3>Mina</h3>
+                <p>História: Mina é conhecida por sua graça e elegância. Ela nasceu nos Estados Unidos e se mudou para o Japão ainda criança.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Dahyun.jpg" alt="Dahyun">
+                <h3>Dahyun</h3>
+                <p>História: Dahyun é a rapper do grupo, famosa por seu "eagle dance". Ela é uma das mais divertidas e carismáticas membros do Twice.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Chaeyoung.jpg" alt="Chaeyoung">
+                <h3>Chaeyoung</h3>
+                <p>História: Chaeyoung é rapper e vocalista. Ela é muito criativa, sendo conhecida por suas habilidades artísticas e talento para desenhar.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Tzuyu.jpg" alt="Tzuyu">
+                <h3>Tzuyu</h3>
+                <p>História: Tzuyu é a mais jovem do grupo e é conhecida por sua beleza estonteante. Ela é de Taiwan e fala chinês, coreano e japonês.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="group">
+        <h2>Blackpink</h2>
+        <div class="member-cards">
+            <div class="card">
+                <img src="imagens-membros/jisso.jpg" alt="Jisoo">
+                <h3>Jisoo</h3>
+                <p>História: Jisoo é a visual e vocalista principal do Blackpink. Sua presença de palco e beleza cativam os fãs globalmente.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Jennie.jpg" alt="Jennie">
+                <h3>Jennie</h3>
+                <p>História: Jennie é a rapper principal do grupo e também uma vocalista talentosa. Ela lançou sua carreira solo com a música "SOLO".</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Rosé.jpg" alt="Rosé">
+                <h3>Rosé</h3>
+                <p>História: Rosé é conhecida por sua voz única e habilidades de guitarra. Nascida na Nova Zelândia e criada na Austrália, ela traz uma diversidade cultural ao grupo.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Lisa.jpg" alt="Lisa">
+                <h3>Lisa</h3>
+                <p>História: Lisa é a dançarina principal e rapper do grupo. Nascida na Tailândia, ela é conhecida por sua habilidade impressionante em dança e rimas rápidas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="group">
+        <h2>BTS</h2>
+        <div class="member-cards">
+            <div class="card">
+                <img src="imagens-membros/RM.jpg" alt="RM">
+                <h3>RM</h3>
+                <p>História: RM é o líder do BTS e rapper principal. Ele é conhecido por sua inteligência e habilidade de compor letras profundas e significativas.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/JIN.jfif" alt="Jin">
+                <h3>Jin</h3>
+                <p>História: Jin, o "Worldwide Handsome", é o vocalista e visual do grupo. Sua personalidade divertida e habilidades culinárias são muito apreciadas pelos fãs.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/SUGA.jpg" alt="Suga">
+                <h3>Suga</h3>
+                <p>História: Suga é um dos rappers principais do BTS. Ele é conhecido por seu talento em produção musical e letras sinceras.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/𝒉𝒐𝒔𝒆𝒐𝒌_J-HOPE.jpg" alt="J-Hope">
+                <h3>J-Hope</h3>
+                <p>História: J-Hope é o principal dançarino e rapper. Seu carisma e talento em dança fazem dele um dos favoritos dos fãs.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/JIMIN.jpg" alt="Jimin">
+                <h3>Jimin</h3>
+                <p>História: Jimin é conhecido por sua voz suave e habilidades de dança impressionantes. Ele traz uma emoção profunda para suas performances.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/V.jpg" alt="V">
+                <h3>V</h3>
+                <p>História: V é vocalista e visual do grupo. Ele é famoso por sua voz profunda e expressões faciais únicas no palco.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/JUNGKOOK.jpeg" alt="Jungkook">
+                <h3>Jungkook</h3>
+                <p>História: Jungkook é o mais jovem do BTS e é conhecido como o "golden maknae" devido aos seus múltiplos talentos em canto, dança e até esportes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="group">
+        <h2>Stray Kids</h2>
+        <div class="member-cards">
+            <div class="card">
+                <img src="imagens-membros/Bang Chan ✪.jpg" alt="Bang Chan">
+                <h3>Bang Chan</h3>
+                <p>História: Bang Chan é o líder e produtor do Stray Kids. Ele se destaca por suas habilidades multifacetadas em composição, produção e performance.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Lee Know.jpg" alt="Lee Know">
+                <h3>Lee Know</h3>
+                <p>História: Lee Know é o dançarino principal do grupo. Seu talento em dança e sua personalidade única são muito admirados pelos fãs.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/Changbin.jpg" alt="Changbin">
+                <h3>Changbin</h3>
+                <p>História: Changbin é um dos rappers principais do Stray Kids. Ele é conhecido por suas rimas rápidas e forte presença de palco.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/HYUNJIN.jpg" alt="Hyunjin">
+                <h3>Hyunjin</h3>
+                <p>História: Hyunjin é o dançarino principal e visual do grupo. Ele é muito querido pelos fãs por seu carisma e habilidades de dança.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/HAN.jpg" alt="Han">
+                <h3>Han</h3>
+                <p>História: Han é rapper e vocalista. Ele é conhecido por suas habilidades em rap e por seu lado cômico, que sempre anima os fãs.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/FELIX.jpg" alt="Felix">
+                <h3>Felix</h3>
+                <p>História: Felix é conhecido por sua voz profunda e habilidades de dança. Nascido na Austrália, ele traz uma perspectiva internacional ao grupo.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/seungmin.jfif" alt="Seungmin">
+                <h3>Seungmin</h3>
+                <p>História: Seungmin é vocalista do grupo e é conhecido por sua voz doce e personalidade calorosa.</p>
+            </div>
+            <div class="card">
+                <img src="imagens-membros/I_N.jpg" alt="I.N">
+                <h3>I.N</h3>
+                <p>História: I.N é o mais jovem do grupo e é conhecido por sua voz angelical e charme juvenil.</p>
+            </div>
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    </body>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
